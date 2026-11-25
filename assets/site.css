@@ -132,3 +132,13 @@
 .related-topics>span{font-size:12px;color:var(--muted);margin-right:4px}
 .related-topics a{font-size:12px;color:var(--blue);background:#edf0ff;padding:7px 10px}
 .nav a[aria-current=location]{color:var(--blue);font-weight:800}
+
+/* V3 hierarchy refinements */
+.focus-page{box-sizing:border-box;min-height:clamp(440px,62svh,720px);}
+.focus-page h3{font-weight:850}
+.handout-callout{padding:18px 22px;margin:14px 0;border-left:5px solid #8296ff;background:#eef1ff;border-radius:0 12px 12px 0}
+.handout-callout b{display:block;font-size:clamp(18px,1.8vw,25px);color:#293b98;margin-bottom:6px}
+.handout-callout p{margin:0;font-size:clamp(17px,1.55vw,22px);font-weight:650;line-height:1.55}
+.handout-callout.key{background:#fff0ec;border-color:#ff705b}.handout-callout.key b{color:#a93e30}
+.handout-callout.practice{background:#f1f7db;border-color:#99b923}.handout-callout.practice b{color:#576d11}
+.course-list{padding-left:1.25em}.section[hidden],.focus-page[hidden]{display:none!important}
